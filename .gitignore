@@ -1,0 +1,4 @@
+/data/
+/release-assets/
+*.download
+__pycache__/

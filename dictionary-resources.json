@@ -1,0 +1,175 @@
+{
+  "checkedDate": "2026-10-07",
+  "proxyUsed": false,
+  "wiktionarySnapshots": {
+    "zh": {
+      "dumpDate": "2026-10-01",
+      "siteExtractionDate": "2026-10-02"
+    },
+    "en": {
+      "dumpDate": "2026-09-02",
+      "siteExtractionDate": "2026-10-03"
+    }
+  },
+  "installed": [
+    {
+      "filename": "cedict.sqlite",
+      "bytes": 15249408,
+      "metadata": {
+        "version": "1",
+        "subversion": "0",
+        "format": "ts",
+        "charset": "UTF-8",
+        "entries": "125215",
+        "publisher": "MDBG",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "date": "2026-10-07T03:26:22Z",
+        "time": "1791343582",
+        "source": "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz",
+        "sha256_local": "00e6c188df0056c42c0448386d0b4f532aa805d9fdd87aef139f72b421ace2f4",
+        "attribution": "CC-CEDICT / MDBG / contributors"
+      }
+    },
+    {
+      "filename": "wiktionary-zh-zh.zlib.sqlite",
+      "bytes": 226004992,
+      "metadata": {
+        "source": "https://kaikki.org/dictionary/downloads/zh/zh-extract.jsonl.gz",
+        "attribution": "zh Wiktionary / Wiktextract / Kaikki.org",
+        "license_reference": "https://zh.wiktionary.org/wiki/Wiktionary:版权信息",
+        "sha256_local": "41f0024d80b0195c15348a168a3d4e0fe0f50124f26abb8bf9339ec0814c9d12",
+        "chinese_entries": "353456",
+        "entry_language": "zh",
+        "source_lines": "2965486",
+        "data_format": "zlib-json-v1"
+      }
+    },
+    {
+      "filename": "wiktionary-zh-en.zlib.sqlite",
+      "bytes": 39149568,
+      "metadata": {
+        "source": "https://kaikki.org/dictionary/downloads/zh/zh-extract.jsonl.gz",
+        "attribution": "中文维基词典 / Wiktextract / Kaikki.org",
+        "license_reference": "https://zh.wiktionary.org/wiki/Wiktionary:版权信息",
+        "sha256_local": "41f0024d80b0195c15348a168a3d4e0fe0f50124f26abb8bf9339ec0814c9d12",
+        "english_entries": "97019",
+        "source_lines": "2965486",
+        "data_format": "zlib-json-v1"
+      }
+    },
+    {
+      "filename": "wiktionary-en-en.zlib.sqlite",
+      "bytes": 754622464,
+      "metadata": {
+        "source": "https://kaikki.org/dictionary/raw-wiktextract-data.jsonl.gz",
+        "attribution": "en Wiktionary / Wiktextract / Kaikki.org",
+        "license_reference": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+        "sha256_local": "3dac8a09e57827bef493e2e6b552fe917bf3b1fc55dee05c4e4a3702aff5dbdb",
+        "english_entries": "1492836",
+        "source_lines": "10913997",
+        "data_format": "zlib-json-v1"
+      }
+    },
+    {
+      "filename": "ecdict.zlib.sqlite",
+      "bytes": 1070321664,
+      "metadata": {
+        "source": "https://raw.githubusercontent.com/skywind3000/ECDICT/master/stardict.7z",
+        "version": "full-master",
+        "attribution": "ECDICT / skywind3000",
+        "license_reference": "https://github.com/skywind3000/ECDICT/blob/master/LICENSE",
+        "sha256_local": "88fce01e0a30524192a62e363d47eeb036fa17820d5826121b3b419fd67a3996",
+        "entries": "3402564",
+        "data_format": "zlib-json-ecdict-v1"
+      }
+    },
+    {
+      "filename": "open-english-wordnet-2025.sqlite",
+      "bytes": 86335488,
+      "metadata": {
+        "source": "https://en-word.net/downloads/english-wordnet-2025-plus.zip",
+        "version": "2025+",
+        "release_date": "2025-12-31",
+        "license": "CC BY 4.0",
+        "attribution": "Open English WordNet community / Princeton WordNet",
+        "sha256_local": "8360c45a8e066d9f73ff7682172d70ffae48a2604ac23e5ca7f43abcabc004a6",
+        "synsets": "120564",
+        "lemmas": "212659"
+      }
+    },
+    {
+      "filename": "webster-1913.zlib.sqlite",
+      "bytes": 24805376,
+      "metadata": {
+        "source": "https://github.com/ssvivian/WebstersDictionary",
+        "public_domain_source": "https://www.gutenberg.org/ebooks/29765",
+        "edition": "Webster’s Revised Unabridged Dictionary, 1913",
+        "attribution": "Project Gutenberg ebook 29765; JSON conversion by ssvivian/WebstersDictionary",
+        "license_reference": "https://github.com/ssvivian/WebstersDictionary/blob/master/License.txt",
+        "sha256_local": "83995d75eb109cc53b22b03179366e9e2b0a51dd838ab2e0dd31f1baa90a5d40",
+        "entries": "113376",
+        "data_format": "zlib-json-webster-1913"
+      }
+    },
+    {
+      "filename": "wordnet.zip",
+      "bytes": 10775600,
+      "sha256Local": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59"
+    },
+    {
+      "filename": "omw-1.4.zip",
+      "bytes": 26634772,
+      "sha256Local": "3b941e664852f3297b6040236626065796a2aaf7d7f9eec8779a3beaa1096c2d"
+    },
+    {
+      "filename": "english-wordnet-2025-plus.zip",
+      "bytes": 10979359,
+      "sha256Local": "8360c45a8e066d9f73ff7682172d70ffae48a2604ac23e5ca7f43abcabc004a6"
+    },
+    {
+      "filename": "ecdict-full-current.7z",
+      "bytes": 51577449,
+      "sha256Local": "f370a0ecb58ada758d9dfe739db1667fd4ed87ed3055a4a7cb6c7054ecdf83d6"
+    },
+    {
+      "filename": "cedict-current.txt.gz",
+      "bytes": 3979067,
+      "sha256Local": "00e6c188df0056c42c0448386d0b4f532aa805d9fdd87aef139f72b421ace2f4"
+    }
+  ],
+  "remoteWiktionaryAudit": [
+    {
+      "filename": "en-wiktionary.jsonl.gz",
+      "bytes": 2981058381,
+      "remoteLastModified": "Sat, 03 Oct 2026 08:24:38 GMT",
+      "remoteETag": "\"6ac0bbc6-b1af574d\"",
+      "sha256Local": "3dac8a09e57827bef493e2e6b552fe917bf3b1fc55dee05c4e4a3702aff5dbdb",
+      "verification": "size plus remote 1 MiB head/tail match; local source hash matched database; not full remote hash"
+    },
+    {
+      "filename": "zh-wiktionary.jsonl.gz",
+      "bytes": 234452181,
+      "remoteLastModified": "Sat, 03 Oct 2026 08:25:40 GMT",
+      "remoteETag": "\"6ac0bc04-df974d5\"",
+      "sha256Local": "41f0024d80b0195c15348a168a3d4e0fe0f50124f26abb8bf9339ec0814c9d12",
+      "verification": "size plus remote 1 MiB head/tail match; local source hash matched database; not full remote hash"
+    }
+  ],
+  "removedDuplicates": [
+    {
+      "old": "resources\\python\\nltk_data\\corpora\\wiktionary-zh-en.sqlite",
+      "replacement": "resources\\python\\nltk_data\\corpora\\wiktionary-zh-en.zlib.sqlite",
+      "entriesCompared": 97019,
+      "reclaimBytes": 68390912,
+      "exactRowsMatch": true
+    },
+    {
+      "old": "resources\\python\\nltk_data\\corpora\\wiktionary-en-en.sqlite",
+      "replacement": "resources\\python\\nltk_data\\corpora\\wiktionary-en-en.zlib.sqlite",
+      "entriesCompared": 1492836,
+      "reclaimBytes": 1952223232,
+      "exactRowsMatch": true
+    }
+  ],
+  "compatibilityNote": "Princeton WordNet 3.0 retained for OMW 1.4 offset and existing morphology dependencies; Open English WordNet 2025+ uses its own index; Webster remains explicitly historical 1913."
+}

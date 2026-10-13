@@ -1,0 +1,10 @@
+{
+  "name": "translate-resources",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "catalog": "node scripts/create-catalog.mjs",
+    "prepare-release": "node scripts/prepare-release.mjs"
+  }
+}

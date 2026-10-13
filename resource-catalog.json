@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "downloadBaseUrl": "",
+  "packages": [
+    {
+      "id": "hunyuan",
+      "label": "混元 Hy-MT2 1.8B Q4_K_M",
+      "files": [
+        {
+          "path": "models/hy-mt2/Hy-MT2-1.8B-Q4_K_M.gguf",
+          "asset": "models--hy-mt2--Hy-MT2-1.8B-Q4_K_M.gguf",
+          "size": 1133080448
+        }
+      ]
+    },
+    {
+      "id": "ecdict",
+      "label": "ECDICT 英汉词库",
+      "files": [
+        {
+          "path": "nltk_data/corpora/ecdict.zlib.sqlite",
+          "asset": "nltk_data--corpora--ecdict.zlib.sqlite",
+          "size": 1070321664
+        }
+      ]
+    },
+    {
+      "id": "wiktionary-en",
+      "label": "英语维基词典",
+      "files": [
+        {
+          "path": "nltk_data/corpora/wiktionary-en-en.zlib.sqlite",
+          "asset": "nltk_data--corpora--wiktionary-en-en.zlib.sqlite",
+          "size": 754622464
+        }
+      ]
+    },
+    {
+      "id": "wiktionary-zh",
+      "label": "中文维基词典",
+      "files": [
+        {
+          "path": "nltk_data/corpora/wiktionary-zh-zh.zlib.sqlite",
+          "asset": "nltk_data--corpora--wiktionary-zh-zh.zlib.sqlite",
+          "size": 226004992
+        },
+        {
+          "path": "nltk_data/corpora/wiktionary-zh-en.zlib.sqlite",
+          "asset": "nltk_data--corpora--wiktionary-zh-en.zlib.sqlite",
+          "size": 39149568
+        }
+      ]
+    },
+    {
+      "id": "wordnet",
+      "label": "WordNet 语义词库与中文映射",
+      "files": [
+        {
+          "path": "nltk_data/corpora/open-english-wordnet-2025.sqlite",
+          "asset": "nltk_data--corpora--open-english-wordnet-2025.sqlite",
+          "size": 86335488
+        },
+        {
+          "path": "nltk_data/corpora/wordnet.zip",
+          "asset": "nltk_data--corpora--wordnet.zip",
+          "size": 10775600
+        },
+        {
+          "path": "nltk_data/corpora/omw-1.4.zip",
+          "asset": "nltk_data--corpora--omw-1.4.zip",
+          "size": 26634772
+        }
+      ]
+    },
+    {
+      "id": "cedict",
+      "label": "CC-CEDICT 汉英词库",
+      "files": [
+        {
+          "path": "nltk_data/corpora/cedict.sqlite",
+          "asset": "nltk_data--corpora--cedict.sqlite",
+          "size": 15249408
+        }
+      ]
+    },
+    {
+      "id": "webster",
+      "label": "韦氏 1913 历史词库",
+      "files": [
+        {
+          "path": "nltk_data/corpora/webster-1913.zlib.sqlite",
+          "asset": "nltk_data--corpora--webster-1913.zlib.sqlite",
+          "size": 24805376
+        }
+      ]
+    },
+    {
+      "id": "argos",
+      "label": "Argos 中英双向备用模型",
+      "files": [
+        {
+          "path": "argos-packages/translate-en_zh-1_9/README.md",
+          "asset": "argos-packages--translate-en_zh-1_9--README.md",
+          "size": 401
+        },
+        {
+          "path": "argos-packages/translate-en_zh-1_9/metadata.json",
+          "asset": "argos-packages--translate-en_zh-1_9--metadata.json",
+          "size": 135
+        },
+        {
+          "path": "argos-packages/translate-en_zh-1_9/model/config.json",
+          "asset": "argos-packages--translate-en_zh-1_9--model--config.json",
+          "size": 216
+        },
+        {
+          "path": "argos-packages/translate-en_zh-1_9/model/model.bin",
+          "asset": "argos-packages--translate-en_zh-1_9--model--model.bin",
+          "size": 82713318
+        },
+        {
+          "path": "argos-packages/translate-en_zh-1_9/model/shared_vocabulary.json",
+          "asset": "argos-packages--translate-en_zh-1_9--model--shared_vocabulary.json",
+          "size": 1367577
+        },
+        {
+          "path": "argos-packages/translate-en_zh-1_9/sentencepiece.model",
+          "asset": "argos-packages--translate-en_zh-1_9--sentencepiece.model",
+          "size": 806370
+        },
+        {
+          "path": "argos-packages/translate-en_zh-1_9/stanza/en/mwt/combined.pt",
+          "asset": "argos-packages--translate-en_zh-1_9--stanza--en--mwt--combined.pt",
+          "size": 509238
+        },
+        {
+          "path": "argos-packages/translate-en_zh-1_9/stanza/en/tokenize/combined.pt",
+          "asset": "argos-packages--translate-en_zh-1_9--stanza--en--tokenize--combined.pt",
+          "size": 650887
+        },
+        {
+          "path": "argos-packages/translate-en_zh-1_9/stanza/en/tokenize/ewt.pt",
+          "asset": "argos-packages--translate-en_zh-1_9--stanza--en--tokenize--ewt.pt",
+          "size": 630886
+        },
+        {
+          "path": "argos-packages/translate-en_zh-1_9/stanza/resources.json",
+          "asset": "argos-packages--translate-en_zh-1_9--stanza--resources.json",
+          "size": 434061
+        },
+        {
+          "path": "argos-packages/translate-zh_en-1_9/README.md",
+          "asset": "argos-packages--translate-zh_en-1_9--README.md",
+          "size": 393
+        },
+        {
+          "path": "argos-packages/translate-zh_en-1_9/metadata.json",
+          "asset": "argos-packages--translate-zh_en-1_9--metadata.json",
+          "size": 135
+        },
+        {
+          "path": "argos-packages/translate-zh_en-1_9/model/config.json",
+          "asset": "argos-packages--translate-zh_en-1_9--model--config.json",
+          "size": 196
+        },
+        {
+          "path": "argos-packages/translate-zh_en-1_9/model/model.bin",
+          "asset": "argos-packages--translate-zh_en-1_9--model--model.bin",
+          "size": 82713318
+        },
+        {
+          "path": "argos-packages/translate-zh_en-1_9/model/shared_vocabulary.json",
+          "asset": "argos-packages--translate-zh_en-1_9--model--shared_vocabulary.json",
+          "size": 1368422
+        },
+        {
+          "path": "argos-packages/translate-zh_en-1_9/sentencepiece.model",
+          "asset": "argos-packages--translate-zh_en-1_9--sentencepiece.model",
+          "size": 804374
+        },
+        {
+          "path": "argos-packages/translate-zh_en-1_9/stanza/resources.json",
+          "asset": "argos-packages--translate-zh_en-1_9--stanza--resources.json",
+          "size": 121862
+        },
+        {
+          "path": "argos-packages/translate-zh_en-1_9/stanza/zh-hans/tokenize/gsdsimp.pt",
+          "asset": "argos-packages--translate-zh_en-1_9--stanza--zh-hans--tokenize--gsdsimp.pt",
+          "size": 1128796
+        }
+      ]
+    }
+  ]
+}

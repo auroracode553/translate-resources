@@ -1,0 +1,43 @@
+{
+  "checkedOn": "2026-10-08",
+  "model": {
+    "repository": "tencent/Hy-MT2-1.8B-GGUF",
+    "revision": "a0c709d9fac510f2c807aa3af52872340dc37a4a",
+    "file": "Hy-MT2-1.8B-Q4_K_M.gguf",
+    "bytes": 1133080448,
+    "sha256": "dc5f44fcf1fa496ee7ad725982c0c8c553a4de00259b53af84c4b89fb0c06699",
+    "license": "Apache-2.0",
+    "source": "https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF"
+  },
+  "runtime": {
+    "repository": "ggml-org/llama.cpp",
+    "release": "b11429",
+    "file": "llama-b11429-bin-win-cpu-x64.zip",
+    "bytes": 19398918,
+    "sha256": "1283323272b04cd07905816a597a0da810918102de958f4ff6f7bbaa70ed2efe",
+    "license": "MIT",
+    "source": "https://github.com/ggml-org/llama.cpp/releases/tag/b11429"
+  },
+  "verification": "模型及 CPU / Vulkan 运行时下载文件 SHA-256 与官方元数据一致；Vulkan 已在本机实际完成中英双向长文翻译，33/33 层加载到 AMD Radeon 780M。下载使用 curl --noproxy。默认优先可用 Vulkan GPU，不绑定本机型号；GPU 不可用或初始化失败时使用随附 CPU 运行时并显示原因，也可手动选择 CPU。",
+  "vulkanRuntime": {
+    "repository": "ggml-org/llama.cpp",
+    "release": "b11429",
+    "file": "llama-b11429-bin-win-vulkan-x64.zip",
+    "bytes": 33337769,
+    "sha256": "1bfe78ad9168b79fa02bf67f6af9f5e17a966d824d77238517f7bef12ac73b36",
+    "license": "MIT",
+    "source": "https://github.com/ggml-org/llama.cpp/releases/tag/b11429"
+  },
+  "compute": {
+    "default": "gpu-preferred",
+    "deviceSelection": "enumerated Vulkan GPU with most available memory",
+    "fallback": "bundled CPU runtime",
+    "backend": "Vulkan",
+    "gpuLayers": 999,
+    "contextTokens": 4096,
+    "threads": 4,
+    "verifiedDevice": "AMD Radeon(TM) 780M",
+    "verifiedOffloadedLayers": 33,
+    "verifiedTotalLayers": 33
+  }
+}
