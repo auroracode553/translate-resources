@@ -18,3 +18,9 @@
 混元模型：腾讯 [Hy-MT2-1.8B-GGUF](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF)，Apache-2.0；版本和上游校验见 hunyuan-resources.json。模型上游许可链接见该仓库文件页。
 
 Argos 模型：来源与版本见各模型 metadata.json 和 [Argos 模型索引](https://github.com/argosopentech/argospm-index)。发布前逐项核对索引及模型上游许可、署名要求；不要因应用代码许可推定数据许可。此处不额外保存独立许可证副本。
+
+## 离线引擎来源
+
+引擎使用 Python 3.14.8 官方嵌入式 Windows x64 运行时（[来源](https://www.python.org/downloads/release/python-3148/)、[上游许可](https://docs.python.org/3/license.html)）与 llama.cpp b11429 的 CPU 服务及 Vulkan 插件（[来源](https://github.com/ggml-org/llama.cpp/releases/tag/b11429)、[上游许可](https://github.com/ggml-org/llama.cpp/blob/b11429/LICENSE)）。
+
+依赖固定为 CTranslate2 4.8.2、NumPy 2.5.3、NLTK 3.10.3、SentencePiece 0.2.2、PyYAML 6.0.3、click 8.5.0、cloudpickle 3.1.2、colorama 0.4.6、defusedxml 0.7.1、joblib 1.6.0、regex 2026.9.29、tqdm 4.70.1；各版本来源和上游许可链接见对应 [PyPI 项目](https://pypi.org/)。应用中的 requirements-windows.lock 与 runtime-resources.json 保存恢复配置。引擎附件保留推理和词典功能，不包含 Python 安装器、pip 或 Torch。

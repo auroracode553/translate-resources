@@ -1,9 +1,13 @@
 {
   "name": "translate-resources",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
+    "prepare-engine": "node scripts/prepare-engine.mjs",
+    "prepare-update": "node scripts/prepare-update.mjs",
+    "upload-release": "node scripts/upload-release.mjs",
+    "restore": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/restore-resources.ps1",
     "catalog": "node scripts/create-catalog.mjs",
     "prepare-release": "node scripts/prepare-release.mjs"
   }
